@@ -1,0 +1,1000 @@
+
+body {
+    background: #f7f5f1;
+    border: 0;
+    font: 13px Arial, Helvetica, sans-serif;
+    color: #6f6b68;
+    line-height: 18px;
+    min-width: 320px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* start nav */
+nav {
+    display: flex;
+    padding-top: 40px;
+    height: 94vh;
+    background-repeat: no-repeat;
+    background-size: 220vh 100%;
+    position: relative;
+}
+nav #h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-left:100px ;
+    color: #eddbc0;
+    text-shadow: 3px 2px 5px #aaa;
+}
+nav a {
+    text-decoration: none;
+}
+nav .div1{
+    width: 100%;
+    background-image: url(../images/menu_bg.png);
+    background-size: 95%;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-left: 250px;
+}
+nav ul{
+list-style: none;
+display: flex;
+}
+nav ul li{
+    margin-top: 10px;
+    padding-left:32px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #eacfa6;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav ul li a:hover{
+    color: white;
+    transition: .4s;
+}
+nav .div2{
+    width: 60%;
+    height: 70%;
+    margin-top: 149px;
+    position: absolute;
+    left: 28%;
+}
+nav .div2 h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+nav .div2 .h1{
+    width: 47%;
+    font-size: 42px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    padding: 20px;
+}
+nav .div2 .h2{
+    width: 57%;
+    margin-left: 65px;
+    padding: 20px 20px;
+}
+nav .div3{
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 79%;
+}
+nav .div3 .p1{
+    width: 100%;
+    font-size: 20px;
+    height: 30px;
+    color: aqua;
+    padding-top: 15px;
+    padding-left: 400px;
+    padding-bottom: 15px;
+    background-color:rgba(37, 95, 165, 0.8);
+}
+nav .div3 img{
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+nav .div3 div{
+    border-left: 2px dashed #eddbc0;
+    padding: 22px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+nav .div3 div:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+nav .div3 div h3{
+    text-transform: capitalize;
+    color: aliceblue;
+    font-size: 25px;
+    /* cursor: pointer; */
+} 
+nav .div3 div p{
+    color: #eddbc0;
+    padding-top: 15px;
+}
+nav .div3 .div31{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 100%;
+    left: 26%;
+    /* opacity: .8; */
+}
+nav .div3 .div32{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 100%;
+    left: 44.4%;
+}
+nav .div3 .div33{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 100%;
+    left: 62.8%;
+    border-right:2px dashed #eddbc0 ;
+}
+.end_nav {
+    text-decoration: none;
+    opacity: .8;
+}
+.end_nav:hover{
+    opacity: 1;
+}/* end nav */
+/* start container */
+.container .section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 1200px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    justify-content: space-around;
+    margin: 30px auto;
+    padding: 20px;
+}
+.container .section .tickets {
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+.container .section .plan {
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+.container .section .search {
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+.container .section .tickets img {
+    position: absolute;
+    right: 125px;    
+    bottom: 160px;
+    
+}
+.container .section .plan img {
+    position: absolute;
+    right: 125px;    
+    bottom: 160px;
+}
+.container .section .search img {
+    position: absolute;
+    right: 125px;
+    bottom: 160px;
+}
+.container .section .tittle {
+    color: #bd4541;
+    font-size: 20px;
+    text-align: center;
+}
+.container .section .text {
+    font-family: 'Droid Serif';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000;
+    padding-bottom: 10px;
+    text-align: center;
+} 
+.container .section .buttom {
+    position: relative;
+}
+
+.container .section .buttom a {
+    display: inline-block;
+    width: 42px;
+    border-radius: 50%;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    font-size: 12px;
+    font-family: 'Droid Serif';
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+    white-space: nowrap;
+    letter-spacing: 0px;
+    background: #bd4541;
+    position: absolute;
+    right: 135px;    
+    top: 1px;
+
+}
+.container .section .buttom a:hover {
+    background-color: #0088cc;
+    transition: .4s;
+}/* end container */
+/* start hot tours home */
+.head {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.head h1 {
+    font-family: 'Playfair Display SC';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #bd4541;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.head .container {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.head .container a {
+    text-decoration: none;
+}
+.head .container div {
+    padding: 10px;
+    border: solid 1px white;
+    background-color: white;
+    box-shadow: 1px 1px 8px #ccc;
+}
+
+.head .container .div:hover {
+    background-color: #40cefa;
+    transition: .6s;
+    transform: rotate3d(1 , 2, 4 , 2deg);
+}
+
+.head .container .ban1 div {
+    text-align: center;
+}
+.head .container .ban2 div {
+    text-align: center;
+}
+.head .container .ban3 div {
+    text-align: center;
+}
+.head .container .ban4 div {
+    text-align: center;
+}
+.im  {
+    height: 170px;
+}    
+
+div {
+    position: relative;
+}
+div .price{
+    position: absolute;
+    right: 12px;
+    bottom: 8px;
+    color: #bd4541;
+}
+.price span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #bd4541;
+}
+div h5 {
+    color: #6f6461;
+}
+div p {
+    color: black;
+}
+hr  {
+    width: 80%;
+    background: #eddbc0;
+    margin: 15px auto;
+}/* end hot tours home */
+/* start section */
+.container .content {
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+    height: 220px;
+}
+.element h1 {
+    font-family: 'Playfair Display SC';
+    font-weight: 700;
+    font-size: 24px;
+    color: #4d483f;
+    line-height: 24px;
+    padding: 20px 0 30px 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.element h4 {
+    font-family: 'Droid Serif';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000;
+    line-height: 22px;
+    padding: 0px 0 10px 0;
+    margin: 0;
+}
+.thumb {
+    display: flex;
+    margin-top: 20px;
+}
+.thumb .caption {
+    width: 600px;
+    margin-left: 25px; 
+    color: #6f6b68;
+    font-size: 18px;
+    line-height: 25px;
+}
+.thumb .caption p{
+    color: #6f6b68;
+}
+.content .aside {
+    position: relative;
+}
+.aside {
+    position: absolute;
+    bottom: 120px;
+    left: 90px;
+}
+.aside ul {
+    position: absolute;
+    top: -35px;
+}
+.aside .h2 h2 {
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    font-size: 20px;
+    color: #4d483f;
+    line-height: 70px;
+    padding: 20px 0 30px 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.aside .links ul li{
+    font-family: 'Playfair Display SC';
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #4d483f;
+    line-height: 20px;
+    padding: 8px;
+    margin: 0px;
+    border-bottom: 1px solid #dbd2ce;
+    list-style: none;
+    width: 250px;
+
+}
+.aside .links ul li a{
+    display: block;
+    color: #4d483f;
+    text-decoration: none;
+    background-image: url(../images/li_st1.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10; 
+    padding-left: 30px;
+}
+.aside .links ul li a:hover{
+    color: #dd5353;
+}/* end section */
+/* start footer */
+.container .bot1 {
+    position: relative;
+}
+.container .plane {
+    position: absolute;
+    top: -60px;
+    right: 185px;
+}
+.container .boat {
+    position: absolute;
+    top: -66px;
+    right: 92px;
+}
+footer {
+    position: relative;
+    z-index: 1;
+    background: url(../images/footer.jpg);
+    background-color: #7ccfe9;
+    background-repeat: repeat-x;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    margin-top: 130px;
+}
+.bot1 .text {
+    font-family: 'Playfair Display SC';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+.social-parent ul{
+    padding-bottom: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+.social-parent ul li {
+    margin: 0 10px;
+}
+.social-parent ul li:hover{
+    opacity: .5;
+}
+.menu_bot .clear {
+    padding-bottom: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+.menu_bot .clear li a{
+    font-size: 15px;
+    margin: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #1d6e88;
+}
+
+.clear li a:hover{
+    color: #fff;
+    border-bottom: solid 3px #fff;
+}
+hr{
+    width: 80%;
+    margin: auto;
+    color: #eddbc0;
+}
+.copyright {
+    color: #1d6e88;
+    padding-top: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.copyright a{
+    color: #1d6e88;
+}
+.copyright a:hover {
+    text-decoration: none;
+    color: #fff;
+}/* end footer */
+/* star news */
+.news {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+.news .texts h1 {
+    font-family: 'Playfair Display SC';
+    font-weight: 700;
+    color: #4d483f;
+    line-height: 24px;
+    padding: 20px 0px 20px 20px;
+    margin-top: 40px;
+}
+.news .texts .content {
+    display: flex;
+}
+.content .date h5 {
+    padding-left: 30px;
+}
+.date img {
+    padding-left: 20px;
+    margin-right: 5px;
+}
+.date .paragraph {
+    padding-top: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.paragraph .link {
+    margin: 35px -115px;
+   
+}
+.paragraph .link a {
+     color: #000;
+    text-decoration: underline;
+}
+.paragraph .link a:hover{
+    color: #bd4541;
+    text-decoration: none;
+    transition: .4s;
+}
+#title {
+    line-height: 2;
+    color: #6f6461;
+    position: absolute;
+    top: 65px; 
+    left: -115px;
+    width: 600px;
+}
+.paragraph .read{
+        position: absolute;
+    top: 134px;
+    left: -115px;
+    display: inline-block;
+    line-height: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Droid Serif';
+    font-style: italic;
+    font-weight: 400;
+    color: #bd4541;
+    white-space: nowrap;
+    letter-spacing: 0px;
+    background: url(../images/button2.png) right center no-repeat;
+    padding-right: 20px;
+}
+.paragraph .read:hover{
+    color: #000;
+    transition: .3s;
+}
+.hrr {
+    height: 1px;
+    background: #ece9e4;
+    margin: -60px 21px 20px;
+    width: 70%;
+}
+.lines {
+    height: 5px;
+    background: #ece9e4;
+    margin: -60px 21px 20px;
+    width: 70%;
+}
+.aside2 .text {
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    font-size: 20px;
+    color: #4d483f;
+    line-height: 24px;
+    padding: 20px 0 30px 0;
+    margin: 0;
+}
+.news .aside0 {
+    margin-left: 800px;
+    position: absolute;
+    top: 195px;
+}
+.news .aside0 .aside2{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+.news .aside0 .aside2 .message {
+    width: 260px;
+    height: 220px;
+    background-color: #7ccfe9;
+    border-radius: 5px;
+}
+.news .aside0 .aside2 .message .text {
+    padding: 20px;
+    font-size: 14px;
+}
+.news .aside0 .aside2 .message .text p {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+}
+.aside2 h2 {
+    line-height: 2;
+    color: #a34b48;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.aside2 span {
+    font-style: italic;
+}
+.aside3 {
+    position: absolute;
+    top: 450px;
+    left: 200px;
+}
+.aside3 a {
+    text-decoration: none;
+}
+.aside3 .content {
+    height: 307px;
+    width: 192px;
+    background-color: #fff;
+    margin-left: -100px;
+    box-shadow: 0px 1px 5px #4d483f;
+    border-radius: 4px;
+}
+.aside3 .content:hover{
+    background-color: #40cefa;
+    transition: .5s;
+    transform: skew(1deg , 1deg);
+}
+.aside3 .content .figure img{
+    margin-left: -15px;
+    margin-top: -15px;
+    width: 223px;
+}
+.aside3 .hot h3 {
+    color: #4d483f;
+    padding: 20px 0 30px;
+    font-size: 20px;
+    font-family: ui-monospace;
+    margin-left: -100px;
+    margin-top: 30px;
+}
+.aside3 .content .textss {
+    margin-left: -160px;
+    margin-top: 140px;
+}
+.aside3 .content .textss .h3 {
+    margin: auto 0 0 -23px;
+    line-height: 3;
+    width: 150px;
+    color: #000;
+    font-family: ui-monospace;
+}
+.aside3 .content .textss .h5 {
+    margin: auto 0 0 7px;
+    color: #000;
+    font-family:'Droid Serif';
+    font-size: 22px;
+}
+.aside3 .content .textss .photo {
+    margin: 10px 0 0 -8px;
+    border-bottom: solid 1px #6f6461;
+}
+.aside3 .content .textss .photo img {
+    width: 128px;
+}
+
+.aside3 .last {
+    margin-left: -180px;
+    margin-top: 255px;
+}
+.last .price {
+    
+    position: absolute;
+    left: 155px;
+    top: 40px;
+}
+
+/* end news */
+
+
+/* start Hot_Tours */
+
+.hot_tours {
+    padding-top: 40px;
+    height: 1150px;
+}
+.hot_tours .container {
+    margin-right: auto;
+    margin-left: auto;
+}
+.hot_tours .container .content {
+    margin: auto;
+}
+.hot_tours .container .content .photos {
+    width: 850px;
+}
+.photos h1 {
+    font-family: 'Playfair Display SC';
+    font-weight: 700;
+    font-size: 24px;
+    color: #4d483f;
+    line-height: 24px;
+    padding: 20px 0 30px 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.photos .row_photo .images {
+    display: flex;
+    justify-content: space-between;
+}
+.photos .row_photo .images .photo1 {
+    width: 262px;
+    height: 220px;
+    border-radius: 5px;
+    margin: 20px 0 25px 0;
+    background-color: #fff;
+    box-shadow: 1px 1px 7px #534f4f;
+}
+.photos .row_photo .images a{
+    width: 220px;
+    margin: auto;
+    text-decoration: none;
+}
+.photos .row_photo .images a figure {
+    margin:  7px 0 0 9px;
+}
+.images .photo1 a p {
+    margin: 15px 0 0 72px;
+    font-family: 'Playfair Display SC';
+    font-size: 16px;
+    color: #000;
+}
+.photo1 img {
+    width: 245px;
+}
+.photos .row_photo .images .photo1:hover {
+    background-color: #40cefa;
+    transition: .5s;
+    transform: skew(1deg , 1deg);
+}
+.photos .row_photo .images .photo1 p:hover{
+    color: #fff;
+    transition: .3s;
+}
+
+.aside4 {
+
+    width: 220px;
+    position: relative;
+}
+.aside4 .aside {
+    position: absolute;
+    left: 1110px;
+    bottom: 110px;
+}
+.aside4 .aside h2 {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.high_line {
+    height: 4px;
+    background-color: #e1dedb;
+    width: 58%;
+    margin-left: 136px;
+    margin-top: 12px;
+}
+
+
+/* end Hot_Tours */
+
+/* start contacts */
+
+.main_contacts {
+    margin-top: 70px;
+    width: 100%;
+}
+.main_contacts .container_contacts {
+    margin-left: 145px;
+    display: flex;
+}
+.container_contacts .content .text h1 {
+    font-family: 'Playfair Display SC';
+    font-weight: 700;
+    font-size: 24px;
+    color: #4d483f;
+    line-height: 24px;
+    padding: 20px 0 30px 0;
+}
+.container_contacts .content .google_map {
+    width: 790px;
+    height: 375px;
+    background-color: #fff;
+}
+.container_contacts .content .google_map iframe {
+    width: 773px;
+    height: 365px;
+    padding-bottom: 0px;
+    margin: 3px 0px 0px 7px;
+    border-color: transparent transparent transparent;
+}
+.content .end_content {
+    padding-top: 30px;
+}
+.content .end_content h4 {
+    font-family: 'Droid Serif';
+    font-weight: 400;
+    font-size: 17px;
+    color: #000;
+    line-height: 22px;
+    padding: 0px 0 10px 0;
+}
+.end_content pre {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.end_content #mail {
+    color: #000;
+}
+.end_content #mail:hover{
+    text-decoration: none;
+    color: #bd4541;
+    transition: .3s;
+}
+.aside_contacts {
+    width: 300px;
+    margin-left: 60px;
+}
+.aside_contacts .text {
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    font-size: 20px;
+    color: #4d483f;
+    line-height: 24px;
+    padding: 20px 0 30px 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.aside_contacts .links ul {
+    list-style: none;
+}
+.aside_contacts .links ul li {
+    font-family: 'Playfair Display SC';
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #4d483f;
+    line-height: 20px;
+    padding: 8px 0px 8px 0px;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 1px solid #dbd2ce;
+}
+.aside_contacts .links ul li a {
+    display: block;
+    color: #4d483f;
+    text-decoration: none;
+    background: url(../images/li_st1.png) ;
+    background-position-x: 10px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin: 5px;
+}
+.aside_contacts .links ul li a:hover {
+    color: #bd4541;
+    transition: .3s;
+}
+.aside_contacts .h3 {
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    font-size: 20px;
+    color: #4d483f;
+    line-height: 30px;
+    padding: 25px 0 30px 0;
+}
+.aside_contacts figure {
+    width: 300px;
+    height: 450px;
+    background-color: #fff;
+}
+.aside_contacts figure img {
+    width: 290px;
+    margin: 6.5px;
+}
+.aside_contacts figure h3 {
+    margin : 10px 0 12px 25px;
+    font-family: Arial, Helvetica, sans-serif;font-size: 15px;
+    font-weight: 300;
+    color: #000;
+}
+.aside_contacts figure p {
+    margin : 10px 0 12px 25px;
+    color: #534f4f;
+}
+.aside_contacts figure a {
+    display: inline-block;
+    line-height: 20px;
+    text-decoration: none;
+    margin: 10px 0 10px 25px;
+    font-size: 19px;
+    font-family: 'Droid Serif';
+    font-style: italic;
+    font-weight: 400;
+    color: #bd4541;
+    white-space: nowrap;
+    letter-spacing: 0px;
+    background: url(../images/button2.png) right center no-repeat;
+    padding-right: 20px;
+}
+.aside_contacts figure a:hover {
+    color: #000;
+    transition: .3s;
+}
+
+.content .form_contact .text h2 {
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    font-size: 20px;
+    color: #4d483f;
+    line-height: 24px;
+    padding: 20px 0 30px 0;
+    margin: 0;
+}
+.form_contact .form input {
+    margin: 5px;
+    padding: 12px;
+    width: 255px;
+}
+.form {
+    position: relative;
+}
+.form img {
+    position: absolute;
+    left: 165px;
+    bottom: 82px;
+}
+.form #sub {
+    background-color: #dd5353;
+    border-color: transparent;
+    color: #fff;
+}
+#sub:hover {
+     background-color: #40cefa;
+    cursor: pointer;
+}
+.form_contact {
+    position: relative;
+}
+.form_contact textarea {
+    position: absolute;
+    left: 310px;
+    bottom: 109px;
+}
+label {
+    position: absolute;
+    left: 320px;
+    bottom: 263px;
+}
+
+
+
+/* end contacts */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
